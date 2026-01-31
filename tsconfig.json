@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "es2020",
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es2020",
+            "dom"
+        ],
+        "noImplicitAny": false,
+        "strict": false
+    },
+    "include": [
+        "behavior_packs/**/*.ts"
+    ]
+}

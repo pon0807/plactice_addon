@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "practice",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"ancient_coin": {
+			"textures": "textures/items/ancient_coin"
+		}
+	}
+}

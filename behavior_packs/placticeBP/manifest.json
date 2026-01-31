@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "練習用アドオンBP",
+        "description": "練習用アドオンBPの説明",
+        "uuid": "10c2b1f6-821b-406e-b444-ecc1d177bcdd",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 130 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "141540cb-8e0f-492e-86e3-a25973ddb639",
+            "version": [ 1, 0, 0 ]
+        }
+    ]
+}
