@@ -6,6 +6,12 @@
 	"texture_data": {
 		"stone_tile": {
 			"textures": "textures/blocks/stone_tile"
+		},
+		"stone_pillar_top": {
+			"textures": "textures/blocks/stone_pillar_top"
+		},
+		"stone_pillar_side": {
+			"textures": "textures/blocks/stone_pillar_side"
 		}
 	}
 }
