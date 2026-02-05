@@ -1,17 +1,63 @@
 {
-    "format_version": 2,
+    "format_version": 3,
     "header": {
         "name": "練習用アドオンRP",
         "description": "練習用アドオンRPの説明",
         "uuid": "4e1adcc6-0352-4a42-93a6-54532a7f4f3f",
-        "version": [ 1, 0, 0 ],
-        "min_engine_version": [ 1, 21, 130 ]
+        "version": "1.0.0",
+        "min_engine_version": "1.21.130"
     },
     "modules": [
         {
             "type": "resources",
             "uuid": "a195ebbc-050b-4b7e-baa6-f52de0f31e84",
-            "version": [ 1, 0, 0 ]
+            "version": "1.0.0"
+        }
+    ],
+    "capabilities": [
+        "pbr"
+    ],
+    "metadata": {
+        "authors": [
+            "Pon_Atelier"
+        ],
+        "url": "https://pon-atelier.com/"
+    },
+    "settings": [
+        {
+            "type": "label",
+            "text": "テスト"
+        },
+        {
+            "type": "toggle",
+            "text": "トグルの設定",
+            "name": "practice:toggle_setting",
+            "default": true
+        },
+        {
+            "type": "slider",
+            "text": "スライダーの設定",
+            "name": "practice:slider_setting",
+            "min": 1,
+            "max": 3,
+            "step": 1,
+            "default": 1
+        },
+        {
+            "type": "dropdown",
+            "text": "ドロップダウンの設定",
+            "name": "practice:dropdown_setting",
+            "options": [
+                {
+                    "name": "one",
+                    "text": "One"
+                },
+                {
+                    "name": "two",
+                    "text": "Two"
+                }
+            ],
+            "default": "one"
         }
     ]
 }

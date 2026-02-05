@@ -1,17 +1,36 @@
 {
-    "format_version": 2,
-    "header": {
-        "name": "練習用アドオンBP",
-        "description": "練習用アドオンBPの説明",
-        "uuid": "10c2b1f6-821b-406e-b444-ecc1d177bcdd",
-        "version": [ 1, 0, 0 ],
-        "min_engine_version": [ 1, 21, 130 ]
-    },
-    "modules": [
-        {
-            "type": "data",
-            "uuid": "141540cb-8e0f-492e-86e3-a25973ddb639",
-            "version": [ 1, 0, 0 ]
-        }
+  "format_version": 2,
+  "header": {
+    "name": "練習用アドオンBP",
+    "description": "練習用アドオンBPの説明",
+    "uuid": "32e54ac1-f22e-4924-91db-f19d9dd24c51",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      130
     ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2326c0b2-070d-47f5-8f71-f5fc822e806d",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": [
+        "0.15.3"
+      ]
+    }
+  }
 }
